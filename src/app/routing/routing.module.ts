@@ -22,9 +22,8 @@ const routes: Routes = [
       //  NgProgressHttpModule.forRoot()
   ],
   declarations: [
-    //  GithubComponent,
+     GithubComponent,
      RepositoriesComponent,
-    //  SearchFormComponent,
   ],
   exports:[RouterModule],
 })
