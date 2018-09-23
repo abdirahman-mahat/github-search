@@ -2,12 +2,13 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import {RouterModule, Routes} from '@angular/router';
  import { GithubComponent } from '../github/github.component';
- import {RepositoriesComponent} from '../repositories/repositories.component';
+ import {RepositoriesComponent} from '../repositories/repositories.component'
 //  import { NgProgressModule } from '@ngx-progressbar/core';
 //  import { NgProgressHttpModule } from '@ngx-progressbar/http';
 
 const routes: Routes = [
     {path: 'users', component: GithubComponent},
+    {path: 'repositories', component: RepositoriesComponent},
     {path: '', redirectTo: '/users', pathMatch: 'full'},
 
 
@@ -22,8 +23,9 @@ const routes: Routes = [
       //  NgProgressHttpModule.forRoot()
   ],
   declarations: [
-     GithubComponent,
+    GithubComponent,
      RepositoriesComponent,
+    //  SearchFormComponent,
   ],
   exports:[RouterModule],
 })
