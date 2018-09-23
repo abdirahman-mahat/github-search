@@ -3,8 +3,8 @@ import { CommonModule } from '@angular/common';
 import {RouterModule, Routes} from '@angular/router';
  import { GithubComponent } from '../github/github.component';
  import {RepositoriesComponent} from '../repositories/repositories.component'
-//  import { NgProgressModule } from '@ngx-progressbar/core';
-//  import { NgProgressHttpModule } from '@ngx-progressbar/http';
+ import { NgProgressModule } from '@ngx-progressbar/core';
+  import { NgProgressHttpModule } from '@ngx-progressbar/http';
 
 const routes: Routes = [
     {path: 'users', component: GithubComponent},
@@ -19,8 +19,8 @@ const routes: Routes = [
   imports: [
     CommonModule,
       RouterModule.forRoot(routes),
-      //  NgProgressModule.forRoot(),
-      //  NgProgressHttpModule.forRoot()
+       NgProgressModule.forRoot(),
+        NgProgressHttpModule.forRoot()
   ],
   declarations: [
     GithubComponent,
