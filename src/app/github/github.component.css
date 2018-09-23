@@ -1,0 +1,50 @@
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+/*.table-striped > tbody > tr:nth-child(2n+1) > td, .table-striped > tbody > tr:nth-child(2n+1) > th {*/
+    /*background-color: red;*/
+/*}*/
+/*github user repos*/
+.my-repos p {
+    text-indent: 3rem;
+    text-align: left;
+}
+.desc{
+    text-align: left;
+}
+tr {
+    font-size: 16px;
+}
+a:hover {
+    text-decoration: none;
+}
+td a {
+    font-size: 25px;
+}
+
+p {
+    text-indent: 2rem;
+    font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.col-md-12 {
+    text-align: center;
+}
+.container {
+    margin-top: 2rem;
+}
+
+
+/* profile*/
+img {
+    max-width: 60%;
+    border-radius: 600px;
+}
+.image-right {
+    padding-top: 8rem;
+    text-align: center;
+}
+
+/**/
