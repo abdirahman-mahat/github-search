@@ -7,7 +7,7 @@ import {Search} from '../search';
   styleUrls: ['./search-form.component.css']
 })
 export class SearchFormComponent implements OnInit {
-    searchInfo = new Search('');
+    newSearch = new Search('');
     @Output() getName = new EventEmitter<Search>();
 
     searchFor(data){
