@@ -4,9 +4,10 @@ import { NgModule } from '@angular/core';
 import {HttpClientModule} from '@angular/common/http';
 import { NgProgressModule } from '@ngx-progressbar/core';
 import { NgProgressHttpModule } from '@ngx-progressbar/http';
-// import {RepositoriesComponent} from './repositories/repositories.component';
+
 import { AppComponent } from './app.component';
-// import { GithubComponent } from './github/github.component';
+import { NavigationComponent } from './navigation/navigation.component';
+import { GithubComponent } from './github/github.component';
 import {RoutingModule} from './routing/routing.module';
 import { RouterModule } from '@angular/router';
 import { SearchFormComponent } from './search-form/search-form.component';
@@ -23,8 +24,8 @@ import {MatMenuModule} from '@angular/material/menu';
 @NgModule({
   declarations: [
     AppComponent,
-    // GithubComponent,
-    // RepositoriesComponent,
+    NavigationComponent,
+    GithubComponent,
     SearchFormComponent,
     // UpperCasePipe
   ],
