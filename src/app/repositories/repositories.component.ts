@@ -1,10 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {SearchRequestService} from '../search-request.service';
 import {Repository} from '../repositories-class/repositories';
-import{User} from '../user-class/user';
-// import { NgProgressModule } from '@ngx-progressbar/core';
-// import { NgProgressHttpModule } from '@ngx-progressbar/http';
-import { Router } from '@angular/router';
+
 
 @Component({
   selector: 'app-repositories',
