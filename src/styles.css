@@ -1,10 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~bootstrap/dist/css/bootstrap.css";
-body {
-  background-image: url(../../github/images/manka.jpg);
+
+body{
+  background-image: url('../../github/images/manka.jpg.jpg');
   background-repeat: repeat;
   background-position: center;
   background-repeat: repeat;
   background-size: cover;
-  color: black;
+  color: blueviolet;
 }
