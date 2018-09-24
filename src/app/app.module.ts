@@ -14,7 +14,6 @@ import { RouterModule } from '@angular/router';
 // import {FormsModule} from '@angular/forms';
 import {SearchRequestService} from './search-request.service';
 // import { UpperCasePipe } from './upper-case.pipe';
-import {MatMenuModule} from '@angular/material/menu';
 import { UpperCasePipe } from './uppercase.pipe';
 import { HighlightDirective } from './highlight.directive';
 
