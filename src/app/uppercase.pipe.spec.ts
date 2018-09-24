@@ -1,8 +1,8 @@
-import { UppercasePipe } from './uppercase.pipe';
+import { UpperCasePipe } from './uppercase.pipe';
 
 describe('UppercasePipe', () => {
   it('create an instance', () => {
-    const pipe = new UppercasePipe();
+    const pipe = new UpperCasePipe();
     expect(pipe).toBeTruthy();
   });
 });

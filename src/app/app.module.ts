@@ -13,7 +13,6 @@ import { RouterModule } from '@angular/router';
 // import { SearchFormComponent } from './search-form/search-form.component';
 // import {FormsModule} from '@angular/forms';
 import {SearchRequestService} from './search-request.service';
-// import { UpperCasePipe } from './upper-case.pipe';
 import { UpperCasePipe } from './uppercase.pipe';
 import { HighlightDirective } from './highlight.directive';
 // import { NotComponent } from './not/not.component';
